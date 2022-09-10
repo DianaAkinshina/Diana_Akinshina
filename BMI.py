@@ -55,7 +55,7 @@ elif user_gender == "М" and user_age > 45:
                2.Вам необходимо сесть на низкоуглеводную диету.
                3.Вам необходимы кардиотренировки каждый день.""" 
                )
-if user_gender == "Ж" and user_age <= 39:
+elif user_gender == "Ж" and user_age <= 39:
       if user_BMI < 16.5:
             print(
                f"""
