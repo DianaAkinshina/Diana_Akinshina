@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-import local_settings
+from . import local_settings
 from pathlib import Path
 
 from proj.local_settings import SECRET_KEY_
